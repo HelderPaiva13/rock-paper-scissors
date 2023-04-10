@@ -2,17 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <script type="text/javascript" src="main.js"></script>
+  
+  <style type="text/css" href="style.css"></style>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
 <body>
-  <script>
-    let  computer = getComputerChoice();
-    console.log(computer);
-    let pessoa = "scissors";
-    console.log(play(pessoa, computer));
-  </script>
+
+  <view>
+    <h1>JOGUE</h1>
+    <h2>ROCK, PAPAR AND SCISSORS</h2>
+
+    <button class="rock"><img src="./img/hand-fist.png"/></button>
+    <button class="paper"><img src="./img/newspaper-clipping.png"/></button>
+    <button class="scissors"><img src="./img/scissors.png"/></button>
+
+    <h2>resultados:</h2>
+    <p>PARTIDAS:</p>
+    <p class="pPartidas"></p>
+    <p>VOCÊ: </p>
+    <p class="pPlayer">0</p>
+    <P>COMPUTADOR</P>
+    <p class="pComput">0</p>
+    
+  </view>
+
+
+  <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
